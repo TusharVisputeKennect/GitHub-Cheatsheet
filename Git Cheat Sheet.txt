@@ -1,0 +1,72 @@
+-------------- BY GITHUB --------------
+echo "# demo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/TusharVisputeKennect/demo.git
+git push -u origin main
+
+-------------- SETUP --------------
+git config --global user.name “[firstname lastname]”
+git config --global user.email “[valid-email]”
+
+-------------- TO CHECK SETUP NAME $ EMAIL --------------
+git config --global user.name
+git config --global user.email
+
+-------------- INIT --------------
+git init
+
+-------------- LIST FILES --------------
+ls -lart
+ls
+
+-------------- STATUS --------------
+git status
+git status -s
+
+-------------- CREATE FILE --------------
+touch [filename.ext]
+touch .gitignore
+
+-------------- ADD FILE --------------
+git add [file]
+git add -A
+
+-------------- COMMIT --------------
+git commit -m “[descriptive message]”
+
+-------------- RECOVER CHANGES --------------
+git checkout [filename]
+git checkout -f 
+
+-------------- DESC COMMIT --------------
+git log
+git log -p -1
+
+-------------- COMPARE LAST CHANGES --------------
+git diff
+git diff --staged
+
+-------------- REMOVE FILE --------------
+git rm --cached [filemame]
+git rm [filename]
+
+-------------- BRANCH --------------
+git branch 
+git branch [branchname]
+
+-------------- SWITCH BRANCH --------------
+git checkout [branchname]
+git checkout -b [branchname]
+
+-------------- MERGE BRANCH --------------
+git merge [branchname]
+
+
+
+
+
+
+
